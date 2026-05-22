@@ -7,6 +7,8 @@ export default defineConfig({
 
   fullyParallel: true,
 
+  retries: 2,
+
   reporter: 'html',
 
   use: {
